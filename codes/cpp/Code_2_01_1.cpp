@@ -3,7 +3,7 @@ using namespace std;
 
 int main() {
 	int N;
-	cin >> N; // “ü—Í•”•ª
-	cout << 5 + N << endl; // o—Í•”•ª
+	cin >> N; // å…¥åŠ›éƒ¨åˆ†
+	cout << 5 + N << endl; // å‡ºåŠ›éƒ¨åˆ†
 	return 0;
 }
