@@ -24,8 +24,9 @@
 
 ## 節末問題 2.1.3
 
-この問題は、「3 つの整数を入力し、この掛け算の値を出力するプログラムを書くこと」を要求しています。したがって、以下のようなプログラムを書くと正解です。Python・JAVA・C での解答例は準備中です。なお、数列のように番号を付した文字式に慣れていない人は、**2.1.4項**・**2.1.5項**に戻って復習しましょう。
+この問題は、「3 つの整数を入力し、この掛け算の値を出力するプログラムを書くこと」を要求しています。したがって、以下のようなプログラムを書くと正解です。なお、数列のように番号を付した文字式に慣れていない人は、**2.1.4項**・**2.1.5項**に戻って復習しましょう。
 
+#### C++ での解答例
 ~~~cpp
 #include <iostream>
 using namespace std;
@@ -38,6 +39,41 @@ int main() {
 }
 ~~~
 
+#### Python での解答例
+~~~python
+A = list(map(int, input().split()))
+print(A[0] * A[1] * A[2])
+~~~
+
+#### JAVA での解答例
+~~~java
+import java.util.*;
+
+class Code_2_01_2 {
+	public static void main(String[] args) {
+		Scanner sc = new Scanner(System.in);
+		int[] A = new int[4];
+		// 入力部分
+		A[1] = sc.nextInt();
+		A[2] = sc.nextInt();
+		A[3] = sc.nextInt();
+		// 出力部分
+		System.out.println(A[1] * A[2] * A[3]);
+	}
+};
+~~~
+
+#### C での解答例
+~~~c
+#include <stdio.h>
+
+int main() {
+	int A[4];
+	scanf("%d%d%d", &A[1], &A[2], &A[3]);
+	printf("%d\n", A[1] + A[2] + A[3]);
+	return 0;
+}
+~~~
 <br />
 <br />
 
@@ -50,6 +86,10 @@ int main() {
 * 2 の位の値は 0
 * 1 の位の値は 1
 * 「位とその桁の数の足し算」は (8×1) + (4×0) + (2×0) + (1×1) = 9
+
+計算のイメージ図は以下の通りです。
+
+![ ](/fig/chap2-1-2.jpg)
 
 <br />
 <br />
