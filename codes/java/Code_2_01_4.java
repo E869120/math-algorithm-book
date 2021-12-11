@@ -7,7 +7,7 @@ class Code_2_01_4 {
 		String answer = ""; // String は文字列型
 		while (N >= 1) {
 			// N % 2 は N を 2 で割った余り（例：N = 13 の場合 1）
-			// N / 2 は N を 2 で割った余り（例：N = 13 の場合 6）
+			// N / 2 は N を 2 で割った値の整数部分（例：N = 13 の場合 6）
 			if (N % 2 == 0) {
 				answer = "0" + answer;
 			}
