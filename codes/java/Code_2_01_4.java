@@ -16,6 +16,6 @@ class Code_2_01_4 {
 			}
 			N = N / 2;
 		}
-		System.out.println(answer);
+		System.out.println(answer); // 出力部分
 	}
 };
