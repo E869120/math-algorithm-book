@@ -5,7 +5,7 @@ int N, B[100009];
 int Q, L[100009], R[100009], X[100009];
 
 int main() {
-	// “ü—ÍEŠK·‚ÌŒvZ
+	// å…¥åŠ›ãƒ»éšå·®ã®è¨ˆç®—
 	cin >> N >> Q;
 	for (int i = 1; i <= Q; i++) {
 		cin >> L[i] >> R[i] >> X[i];
@@ -13,8 +13,8 @@ int main() {
 		B[R[i] + 1] -= X[i];
 	}
 
-	// “š‚¦‚Ìo—Í
-	for (int i = 1; i <= N - 1; i++) {
+	// ç­”ãˆã®å‡ºåŠ›
+	for (int i = 2; i <= N; i++) {
 		if (B[i] > 0) cout << "<";
 		if (B[i] == 0) cout << "=";
 		if (B[i] < 0) cout << ">";
