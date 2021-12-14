@@ -5,17 +5,18 @@ using namespace std;
 
 int N, M, A[100009], B[100009];
 vector<int> G[100009];
-bool visited[100009]; // visited[pos]=false ‚Ì‚Æ‚«’¸“_ x ‚ª”’FAtrue ‚Ì‚Æ‚«ŠDF
+bool visited[100009]; // visited[pos]=false ã®ã¨ãé ‚ç‚¹ x ãŒç™½è‰²ã€true ã®ã¨ãç°è‰²
 
 void dfs(int pos) {
 	visited[pos] = true;
+	// for (int i : G[pos]) ã®ã‚ˆã†ãªæ›¸ãæ–¹ã‚’ã€Œç¯„å›² for æ–‡ã€ã¨ã„ã„ã¾ã™ã€‚ï¼ˆAPG4b 2.01 ç¯€ï¼‰
 	for (int i : G[pos]) {
 		if (visited[i] == false) dfs(i);
 	}
 }
 
 int main() {
-	// “ü—Í
+	// å…¥åŠ›
 	cin >> N >> M;
 	for (int i = 1; i <= M; i++) {
 		cin >> A[i] >> B[i];
@@ -23,10 +24,10 @@ int main() {
 		G[B[i]].push_back(A[i]);
 	}
 
-	// [‚³—Dæ’Tõ
+	// æ·±ã•å„ªå…ˆæ¢ç´¢
 	dfs(1);
 
-	// ˜AŒ‹‚©‚Ç‚¤‚©‚Ì”»’èiAnswer=true ‚Ì‚Æ‚«˜AŒ‹j
+	// é€£çµã‹ã©ã†ã‹ã®åˆ¤å®šï¼ˆAnswer=true ã®ã¨ãé€£çµï¼‰
 	bool Answer = true;
 	for (int i = 1; i <= N; i++) {
 		if (visited[i] == false) Answer = false;
