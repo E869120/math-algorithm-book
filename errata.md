@@ -20,4 +20,4 @@
 | p.8 | APG4b の説明 | 第 1 章・2.02 節・2.03 節  | 第 1 章・2.01 節・2.02 節・2.03 節 | - | 2 刷で対応予定 |
 | p.67 | コード 2.6.1 | - | codes フォルダ以下 [cpp/Code_2_06_1.cpp](https://github.com/E869120/math-algorithm-book/blob/main/codes/cpp/Code_2_06_1.cpp) のように変更 | 14 行目のコメントを変更（1 箇所カッコを付ける） | 2 刷で対応予定 |
 | p.170 | コード 4.5.1 | <code>G[i].size()</code> | <code>(int)G[i].size()</code> | コード 4.5.3 と書き方を統一 | 2 刷で対応予定 |
-| p.172 | コード 4.5.2 | -  | codes フォルダ以下 [cpp/Code_4_05_2.cpp](https://github.com/E869120/math-algorithm-book/blob/main/codes/cpp/Code_4_05_2.cpp) のように変更 | 範囲 for 文を知らない人もいると思ったので | 2 刷で対応予定 |
+| p.172 | コード 4.5.2 | -  | codes フォルダ以下 [cpp/Code_4_05_2.cpp](https://github.com/E869120/math-algorithm-book/blob/main/codes/cpp/Code_4_05_2.cpp) のように変更 | 12 行目を追加（範囲 for 文を知らない人もいると思ったので） | 2 刷で対応予定 |
