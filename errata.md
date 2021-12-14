@@ -7,7 +7,6 @@
 |:---|:---|:---|:---|:---|:---|
 | p.144 | コード 4.2.2 | <code>for (int i = 1; i <= N - 1; i++) {</code> | <code>for (int i = 2; i <= N; i++) {</code> | - | 2 刷で対応予定 |
 | p.225 | コード 5.5.1 | <code>l++</code> が茶色で表示 | <code>l++</code> の <code>l</code> だけ黒で表示 | - | 2 刷で対応予定 |
-| p.269 | 最終確認問題 24 | 出典：AOJ CGL_3_C Polygon − Point Containment 改題 | 出典：AOJ CGL_3_C − Polygon-Point Containment 改題 | - | 2 刷で対応予定 |
 | p.276 | 参考文献 | - | [35] 68-95-99.7 則（[https://artsandculture.google.com/entity/m02plm6g?hl=ja](https://artsandculture.google.com/entity/m02plm6g?hl=ja)）| 出典の入れ忘れ | 2 刷で対応予定 |
 
 <br />
