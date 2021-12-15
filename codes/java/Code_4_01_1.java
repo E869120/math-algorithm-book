@@ -8,7 +8,7 @@ class Code_4_01_1 {
 		long bx = sc.nextInt(), by = sc.nextInt();
 		long cx = sc.nextInt(), cy = sc.nextInt();
 		
-		// ベクトル BA, BC, CA, CB の成分を求める
+		// ベクトル BA, BC, CA, CB の成分表示を求める
 		long BAx = ax - bx, BAy = ay - by;
 		long BCx = cx - bx, BCy = cy - by;
 		long CAx = ax - cx, CAy = ay - cy;
@@ -37,7 +37,7 @@ class Code_4_01_1 {
 			answer = S / BCLength;
 		}
 		
-		// 出力
+		// 答えの出力
 		System.out.format("%.12f\n", answer);
 	}
 }

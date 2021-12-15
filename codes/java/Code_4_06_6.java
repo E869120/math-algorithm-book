@@ -2,7 +2,7 @@ import java.util.*;
 
 class Code_4_06_6 {
 	public static void main(String[] args) {
-		// 配列の初期化（fact[i] は i の階乗を 1000000007 で割った余り）
+		// 配列 fact の初期化（fact[i] は i の階乗を 1000000007 で割った余り）
 		fact = new long[LIMIT + 1];
 		fact[0] = 1;
 		for (int i = 1; i <= LIMIT; i++) {

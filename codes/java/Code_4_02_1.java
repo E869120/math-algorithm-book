@@ -24,7 +24,7 @@ class Code_4_02_1 {
 			B[i] = B[i - 1] + A[i];
 		}
 		
-		// 答えの計算・出力
+		// 答えを計算して出力
 		for (int j = 1; j <= Q; j++) {
 			System.out.println(B[R[j]] - B[L[j] - 1]);
 		}

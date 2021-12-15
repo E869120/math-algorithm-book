@@ -9,14 +9,14 @@ class Code_4_03_1 {
 			double zahyou_x = a;
 			double zahyou_y = a * a;
 			
-			// 接線の式を y = sessen_A * x + sessen_b を求める
-			double sessen_A = 2.0 * zahyou_x;
-			double sessen_b = zahyou_y - sessen_A * zahyou_x;
+			// 接線の式 y = sessen_a * x + sessen_b を求める
+			double sessen_a = 2.0 * zahyou_x;
+			double sessen_b = zahyou_y - sessen_a * zahyou_x;
 			
-			// 次の a の値を求める
-			double next_A = (r - sessen_b) / sessen_A;
-			System.out.format("Step #%d: a = %.12f -> %.12f\n", i, a, next_A);
-			a = next_A;
+			// 次の a の値 next_a を求める
+			double next_a = (r - sessen_b) / sessen_a;
+			System.out.format("Step #%d: a = %.12f -> %.12f\n", i, a, next_a);
+			a = next_a;
 		}
 	}
 }

@@ -30,7 +30,7 @@ class Code_4_05_1 {
 				if (j >= 1) {
 					System.out.print(",");
 				}
-				System.out.print(G[i].get(j)); // G.get(i).get(j) は頂点 i に隣接する頂点のうち j+1 番目のもの
+				System.out.print(G[i].get(j)); // G[i].get(j) は頂点 i に隣接する頂点のうち j+1 番目のもの
 			}
 			System.out.println("}");
 		}

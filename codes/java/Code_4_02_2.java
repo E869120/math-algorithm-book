@@ -25,7 +25,7 @@ class Code_4_02_1 {
 			B[R[i] + 1] -= X[i];
 		}
 		
-		// 答えの計算・出力
+		// 答えを計算して出力
 		String answer = "";
 		for (int i = 2; i <= N; i++) {
 			if (B[i] > 0) answer += "<";
