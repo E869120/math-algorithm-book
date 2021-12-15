@@ -2,7 +2,7 @@ import java.util.*;
 
 class Code_3_04_1 {
 	public static void main(String[] args) {
-		// ステップ１：入力
+		// 入力
 		Scanner sc = new Scanner(System.in);
 		int N = sc.nextInt();
 		int[] B = new int[N + 1];
@@ -14,7 +14,7 @@ class Code_3_04_1 {
 			R[i] = sc.nextInt();
 		}
 		
-		// ステップ２：答えの計算・出力
+		// 答えの計算・出力
 		double blue = 0.0, red = 0.0;
 		for (int i = 1; i <= N; i++) {
 			blue += (double)B[i] / N;

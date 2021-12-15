@@ -5,8 +5,7 @@ class Code_3_06_4 {
 		Scanner sc = new Scanner(System.in);
 		long A = sc.nextLong();
 		long B = sc.nextLong();
-		long answer = GCD(A, B);
-		System.out.println(answer);
+		System.out.println(GCD(A, B));
 	}
 	static long GCD(long A, long B) {
 		if (B == 0) {

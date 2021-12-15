@@ -14,7 +14,7 @@ class Code_3_08_1 {
 		// 配列のソート
 		Arrays.sort(A);
 		
-		// 二分探索・出力
+		// 二分探索
 		String answer = "No";
 		int left = 0, right = N - 1;
 		while (left <= right) {
@@ -24,13 +24,16 @@ class Code_3_08_1 {
 				break;
 			}
 			if (A[mid] > X) {
+				// 探索範囲を前半部分に絞る
 				right = mid - 1;
 			}
 			if (A[mid] < X) {
+				// 探索範囲を後半部分に絞る
 				left = mid + 1;
 			}
-			System.out.println(left + " " + right);
 		}
+		
+		// 答えの出力
 		System.out.println(answer);
 	}
 }

@@ -5,8 +5,7 @@ class Code_3_02_1 {
 		Scanner sc = new Scanner(System.in);
 		long A = sc.nextLong();
 		long B = sc.nextLong();
-		long answer = GCD(A, B);
-		System.out.println(answer);
+		System.out.println(GCD(A, B));
 	}
 	static long GCD(long A, long B) {
 		// 正の整数 A と B の最大公約数を返す関数

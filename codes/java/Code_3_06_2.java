@@ -16,8 +16,8 @@ class Code_3_06_2 {
 			int minValue = A[i];
 			for (int j = i + 1; j <= N; j++) {
 				if (A[j] < minValue) {
-					minPosition = j;
-					minValue = A[j];
+					minPosition = j; // minPosition は最小値のインデックス（1 ～ N）
+					minValue = A[j]; // minValue は現時点での最小値
 				}
 			}
 			// 次の 3 行で A[i] と A[minPosition] を交換

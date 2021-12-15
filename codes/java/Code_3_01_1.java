@@ -16,7 +16,7 @@ class Code_3_01_1 {
 		// 2 以上の整数 N に対し、N が素数であれば true、素数でなければ false を返す関数
 		for (long i = 2; i <= N - 1; i++) {
 			if (N % i == 0) {
-				return false;
+				return false; // N が i で割り切れた場合、この時点で素数ではないと分かる
 			}
 		}
 		return true;
