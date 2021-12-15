@@ -1,7 +1,9 @@
 import math
 
 # 入力
-ax, ay, bx, by, cx, cy = map(int, input().split())
+ax, ay = map(int, input().split())
+bx, by = map(int, input().split())
+cx, cy = map(int, input().split())
 
 # ベクトル BA, BC, CA, CB の成分表示を求める
 BAx, BAy = ax - bx, ay - by
