@@ -17,12 +17,14 @@ class Code_5_07_2 {
 			A[i] = sc.nextLong();
 		}
 		
-		// 答えを求める → 答えの出力
+		// 答えを求める
 		long answer = 0;
 		for (int i = 1; i <= N; i++) {
 			answer += A[i] * ncr(N - 1, i - 1);
 			answer %= MOD;
 		}
+		
+		// 答えの出力
 		System.out.println(answer);
 	}
 	static final int MOD = 1000000007;

@@ -6,7 +6,7 @@ class Code_5_04_1 {
 		Scanner sc = new Scanner(System.in);
 		int N = sc.nextInt();
 		int K = sc.nextInt();
-		// 事象 B の個数 yojishou を数える → 答えの出力
+		// 事象 B の個数 yojishou を数える
 		long yojishou = 0;
 		for (int a = 1; a <= N; a++) {
 			int l = Math.max(1, a - (K - 1)); // b, c の探索範囲の下限 l
@@ -19,6 +19,7 @@ class Code_5_04_1 {
 				}
 			}
 		}
+		// 答えの出力
 		long answer = (long)N * N * N - yojishou;
 		System.out.println(answer);
 	}
