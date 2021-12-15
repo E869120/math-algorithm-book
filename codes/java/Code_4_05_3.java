@@ -1,16 +1,20 @@
 import java.util.*;
+import java.io.*;
 
 class Code_4_05_3 {
-	public static void main(String[] args) {
-		// 入力
-		Scanner sc = new Scanner(System.in);
-		int N = sc.nextInt();
-		int M = sc.nextInt();
+	public static void main(String[] args) throws IOException {
+		// 入力（高速な入出力のため、Scanner の代わりに BufferedReader を使っています）
+		BufferedReader buff = new BufferedReader(new InputStreamReader(System.in));
+		StringTokenizer st;
+		st = new StringTokenizer(buff.readLine());
+		int N = Integer.parseInt(st.nextToken());
+		int M = Integer.parseInt(st.nextToken());
 		int[] A = new int[M + 1];
 		int[] B = new int[M + 1];
 		for (int i = 1; i <= M; i++) {
-			A[i] = sc.nextInt();
-			B[i] = sc.nextInt();
+			st = new StringTokenizer(buff.readLine());
+			A[i] = Integer.parseInt(st.nextToken());
+			B[i] = Integer.parseInt(st.nextToken());
 		}
 		
 		// 隣接リストの作成

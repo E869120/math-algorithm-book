@@ -1,18 +1,22 @@
 import java.util.*;
+import java.io.*;
 
 class Code_4_02_2 {
-	public static void main(String[] args) {
-		// 入力
-		Scanner sc = new Scanner(System.in);
-		int N = sc.nextInt();
-		int Q = sc.nextInt();
+	public static void main(String[] args) throws IOException {
+		// 入力（高速な入出力のため、Scanner の代わりに BufferedReader を使っています）
+		BufferedReader buff = new BufferedReader(new InputStreamReader(System.in));
+		StringTokenizer st;
+		st = new StringTokenizer(buff.readLine());
+		int N = Integer.parseInt(st.nextToken());
+		int Q = Integer.parseInt(st.nextToken());
 		int[] L = new int[Q + 1];
 		int[] R = new int[Q + 1];
 		int[] X = new int[Q + 1];
 		for (int i = 1; i <= Q; i++) {
-			L[i] = sc.nextInt();
-			R[i] = sc.nextInt();
-			X[i] = sc.nextInt();
+			st = new StringTokenizer(buff.readLine());
+			L[i] = Integer.parseInt(st.nextToken());
+			R[i] = Integer.parseInt(st.nextToken());
+			X[i] = Integer.parseInt(st.nextToken());
 		}
 		
 		// 階差の計算
