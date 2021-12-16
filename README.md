@@ -31,7 +31,7 @@
 | リンク | [Link](https://github.com/E869120/math-algorithm-book/blob/main/editorial/chap2-1.pdf) | [Link](https://github.com/E869120/math-algorithm-book/blob/main/editorial/chap2-2.pdf) | [Link](https://github.com/E869120/math-algorithm-book/blob/main/editorial/chap2-3.pdf) | [Link](https://github.com/E869120/math-algorithm-book/blob/main/editorial/chap2-4.pdf) | [Link](https://github.com/E869120/math-algorithm-book/blob/main/editorial/chap2-5.pdf) |
 | 完成度 | 90% | 90% | 90% | 90% | 90% |
 
-### 節末問題（3 章）の解答（12/16 完成予定）
+### 節末問題（3 章）の解答（12/17 完成予定）
 | | 3.1 節 | 3.2 節 | 3.3 節 | 3.4 節 | 3.5 節 | 3.6 節 | 3.7 節 |
 |:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|
 | リンク | - | - | - | - | - | - | - |
