@@ -34,8 +34,8 @@
 ### 節末問題（3 章）の解答（12/17 完成予定）
 | | 3.1 節 | 3.2 節 | 3.3 節 | 3.4 節 | 3.5 節 | 3.6 節 | 3.7 節 |
 |:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|
-| リンク | - | - | - | - | - | - | - |
-| 完成度 | - | - | - | - | - | - | - |
+| リンク | [Link](https://github.com/E869120/math-algorithm-book/blob/main/editorial/chap3-1.pdf) | [Link](https://github.com/E869120/math-algorithm-book/blob/main/editorial/chap3-2.pdf) | [Link](https://github.com/E869120/math-algorithm-book/blob/main/editorial/chap3-3.pdf) | [Link](https://github.com/E869120/math-algorithm-book/blob/main/editorial/chap3-4.pdf) | - | - | - |
+| 完成度 | 90% | 90% | 90% | 90% | - | - | - |
 
 ### 節末問題（4 章）の解答（12/18 完成予定）
 | | 4.1 節 | 4.2 節 | 4.3 節 | 4.4 節 | 4.5 節 | 4.6 節 | 4.7 節 |
