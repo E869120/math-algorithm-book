@@ -4,16 +4,16 @@ int N, A[109];
 int Answer = 0;
 
 int main() {
-	// “ü—Í
+	// å…¥åŠ›
 	scanf("%d", &N);
 	for (int i = 1; i <= N; i++) scanf("%d", &A[i]);
 
-	// “š‚¦‚ÌŒvŽZ
+	// ç­”ãˆã®è¨ˆç®—
 	for (int i = 1; i <= N; i++) {
 		Answer += A[i];
 	}
 
-	// o—Í
+	// å‡ºåŠ›
 	printf("%d\n", Answer % 100);
 	return 0;
 }
