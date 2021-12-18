@@ -4,20 +4,20 @@ class Main {
 	public static void main(String[] args) {
 		Scanner sc = new Scanner(System.in);
 
-		// “ü—Í
+		// å…¥åŠ›
 		int N = sc.nextInt();
 		int[] A = new int[N + 1];
 		for (int i = 1; i <= N; i++) {
 			A[i] = sc.nextInt();
 		}
 
-		// “š‚¦‚ð‹‚ß‚é
+		// ç­”ãˆã®è¨ˆç®—
 		int Answer = 0;
 		for (int i = 1; i <= N; i++) {
 			Answer += A[i];
 		}
 
-		// o—Í
+		// å‡ºåŠ›
 		System.out.println(Answer % 100);
 	}
 };
