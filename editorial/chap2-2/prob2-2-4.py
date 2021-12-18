@@ -1,11 +1,11 @@
-# “ü—Í
+# å…¥åŠ›
 N = int(input())
 A = list(map(int, input().split()))
 
-# “š‚¦‚ÌŒvZ
+# ç­”ãˆã®è¨ˆç®—
 Answer = 0
 for i in range(N):
     Answer += A[i]
 
-# o—Í
+# å‡ºåŠ›
 print(Answer % 100)
