@@ -10,4 +10,4 @@
 
 | 問題 | C++ | Python | JAVA | C |
 |:---:|:---:|:---:|:---:|:---:|
-| 節末問題 2.2.4 | [リンク](https://github.com/E869120/math-algorithm-book/blob/main/editorial/chap2-2/chap2-2.cpp) | [リンク](https://github.com/E869120/math-algorithm-book/blob/main/editorial/chap2-2/chap2-2.py) | [リンク](https://github.com/E869120/math-algorithm-book/blob/main/editorial/chap2-2/chap2-2.java) | [リンク](https://github.com/E869120/math-algorithm-book/blob/main/editorial/chap2-2/chap2-2.c) |
+| 節末問題 2.2.4 | [リンク](https://github.com/E869120/math-algorithm-book/blob/main/editorial/chap2-2/prob2-2-4.cpp) | [リンク](https://github.com/E869120/math-algorithm-book/blob/main/editorial/chap2-2/prob2-2-4.py) | [リンク](https://github.com/E869120/math-algorithm-book/blob/main/editorial/chap2-2/prob2-2-4.java) | [リンク](https://github.com/E869120/math-algorithm-book/blob/main/editorial/chap2-2/prob2-2-4.c) |
