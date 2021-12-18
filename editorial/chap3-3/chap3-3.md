@@ -1,4 +1,4 @@
-## 節末問題 3.2 の解答
+## 節末問題 3.3 の解答
 
 解答 PDF：[https://github.com/E869120/math-algorithm-book/blob/main/editorial/chap3-3/chap3-3.pdf](https://github.com/E869120/math-algorithm-book/blob/main/editorial/chap3-3/chap3-3.pdf)
 
