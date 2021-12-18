@@ -5,18 +5,18 @@ int N, A[109];
 int Answer = 0;
 
 int main() {
-	// “ü—Í
+	// å…¥åŠ›
 	cin >> N;
 	for (int i = 1; i <= N; i++) {
 		cin >> A[i];
 	}
 
-	// “š‚¦‚ÌŒvZ
+	// ç­”ãˆã®è¨ˆç®—
 	for (int i = 1; i <= N; i++) {
 		Answer += A[i];
 	}
 
-	// o—Í
+	// å‡ºåŠ›
 	cout << Answer % 100 << endl;
 	return 0;
 }
