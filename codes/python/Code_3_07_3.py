@@ -7,8 +7,7 @@ N, W = map(int, input().split())
 w = [ None ] * N
 v = [ None ] * N
 for i in range(N):
-	w[i], v[i] = i ** 2, i ** 3
-	# w[i], v[i] = map(int, input().split())
+	w[i], v[i] = map(int, input().split())
 
 # 配列の初期化
 INF = 10 ** 18
