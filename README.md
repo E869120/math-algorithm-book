@@ -28,28 +28,28 @@
 ### 節末問題（2 章）の解答
 | | 2.1 節 | 2.2 節 | 2.3 節 | 2.4 節 | 2.5 節 |
 |:---:|:---:|:---:|:---:|:---:|:---:|
-| リンク | [Link](https://github.com/E869120/math-algorithm-book/blob/main/editorial/chap2-1.pdf) | [Link](https://github.com/E869120/math-algorithm-book/blob/main/editorial/chap2-2.pdf) | [Link](https://github.com/E869120/math-algorithm-book/blob/main/editorial/chap2-3.pdf) | [Link](https://github.com/E869120/math-algorithm-book/blob/main/editorial/chap2-4.pdf) | [Link](https://github.com/E869120/math-algorithm-book/blob/main/editorial/chap2-5.pdf) |
-| 完成度 | 90% | 90% | 90% | 90% | 90% |
+| リンク | [Link](https://github.com/E869120/math-algorithm-book/tree/main/editorial/chap2-1) | [Link](https://github.com/E869120/math-algorithm-book/tree/main/editorial/chap2-2) | [Link](https://github.com/E869120/math-algorithm-book/tree/main/editorial/chap2-3) | [Link](https://github.com/E869120/math-algorithm-book/tree/main/editorial/chap2-4) | [Link](https://github.com/E869120/math-algorithm-book/tree/main/editorial/chap2-5) |
+| 完成度 | 100% | 100% | 100% | 100% | 100% |
 
-### 節末問題（3 章）の解答（12/17 完成予定）
+### 節末問題（3 章）の解答（12/18 完成予定）
 | | 3.1 節 | 3.2 節 | 3.3 節 | 3.4 節 | 3.5 節 | 3.6 節 | 3.7 節 |
 |:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|
-| リンク | [Link](https://github.com/E869120/math-algorithm-book/blob/main/editorial/chap3-1.pdf) | [Link](https://github.com/E869120/math-algorithm-book/blob/main/editorial/chap3-2.pdf) | [Link](https://github.com/E869120/math-algorithm-book/blob/main/editorial/chap3-3.pdf) | [Link](https://github.com/E869120/math-algorithm-book/blob/main/editorial/chap3-4.pdf) | - | - | - |
-| 完成度 | 90% | 90% | 90% | 90% | - | - | - |
+| リンク | [Link](https://github.com/E869120/math-algorithm-book/tree/main/editorial/chap3-1) | [Link](https://github.com/E869120/math-algorithm-book/tree/main/editorial/chap3-2) | [Link](https://github.com/E869120/math-algorithm-book/tree/main/editorial/chap3-3) | [Link](https://github.com/E869120/math-algorithm-book/tree/main/editorial/chap3-4) | [Link](https://github.com/E869120/math-algorithm-book/tree/main/editorial/chap3-5) | [Link](https://github.com/E869120/math-algorithm-book/tree/main/editorial/chap3-6) | [Link](https://github.com/E869120/math-algorithm-book/tree/main/editorial/chap3-7) |
+| 完成度 | 80% | 80% | 80% | 80% | 80% | 80% | 80% |
 
-### 節末問題（4 章）の解答（12/18 完成予定）
+### 節末問題（4 章）の解答（12/21 完成予定）
 | | 4.1 節 | 4.2 節 | 4.3 節 | 4.4 節 | 4.5 節 | 4.6 節 | 4.7 節 |
 |:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|
 | リンク | - | - | - | - | - | - | - |
 | 完成度 | - | - | - | - | - | - | - |
 
-### 節末問題（5 章）の解答（12/21 完成予定）
+### 節末問題（5 章）の解答（12/23 完成予定）
 | | 5.1 節 | 5.2 節 | 5.3 節 | 5.4 節 | 5.5 節 | 5.6 節 | 5.7 節 | 5.8 節 | 5.9 節 | 5.10 節 |
 |:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|
 | リンク | - | - | - | - | - | - | - | - | - | - |
 | 完成度 | - | - | - | - | - | - | - | - | - | - |
 
-### 最終確認問題の解答（12/24 完成予定）
+### 最終確認問題の解答（12/25 完成予定）
 | | 問題1～5 | 問題6～10 | 問題11～15 | 問題16～20 | 問題21～25 | 問題26～30 |
 |:---:|:---:|:---:|:---:|:---:|:---:|:---:|
 | リンク | - | - | - | - | - | - |
