@@ -41,7 +41,7 @@
 | | 4.1 節 | 4.2 節 | 4.3 節 | 4.4 節 | 4.5 節 | 4.6 節 | 4.7 節 |
 |:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|
 | リンク | [Link](https://github.com/E869120/math-algorithm-book/tree/main/editorial/chap4-1) | [Link](https://github.com/E869120/math-algorithm-book/tree/main/editorial/chap4-2) | [Link](https://github.com/E869120/math-algorithm-book/tree/main/editorial/chap4-3) | [Link](https://github.com/E869120/math-algorithm-book/tree/main/editorial/chap4-4) | [Link](https://github.com/E869120/math-algorithm-book/tree/main/editorial/chap4-5) | [Link](https://github.com/E869120/math-algorithm-book/tree/main/editorial/chap4-6) | [Link](https://github.com/E869120/math-algorithm-book/tree/main/editorial/chap4-7) |
-| 完成度 | 100% | 100% | 100% | 100% | 80% | 100% | 80% |
+| 完成度 | 100% | 100% | 100% | 100% | 80% | 100% | 100% |
 
 ### 節末問題（5 章）の解答（12/26 完成予定）
 | | 5.1 節 | 5.2 節 | 5.3 節 | 5.4 節 | 5.5 節 | 5.6 節 | 5.7 節 | 5.8 節 | 5.9 節 | 5.10 節 |
