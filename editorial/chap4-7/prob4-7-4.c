@@ -1,5 +1,5 @@
-#include <iostream>
-using namespace std;
+#include <stdio.h>
+#include <stdbool.h>
  
 // K=2 の場合の遷移
 long long Mat2[4][4] = {
@@ -42,12 +42,12 @@ long long Mat4[16][16] = {
 };
  
 struct Matrix {
-	int size_ = 0; // 行列の大きさ（size_ × size_ の正方行列とする）
+	int size_; // 行列の大きさ（size_ × size_ の正方行列とする）
 	long long p[16][16];
 };
- 
-Matrix Multiplication(Matrix A, Matrix B) { // 行列 A, B の積を返す関数
-	Matrix C;
+
+struct Matrix Multiplication(struct Matrix A, struct Matrix B) { // 行列 A, B の積を返す関数
+	struct Matrix C;
  
 	// 行列 C の初期化
 	C.size_ = A.size_;
@@ -67,8 +67,8 @@ Matrix Multiplication(Matrix A, Matrix B) { // 行列 A, B の積を返す関数
 	return C;
 }
  
-Matrix Power(Matrix A, long long n) { // A の n 乗を返す関数
-	Matrix P = A, Q;
+struct Matrix Power(struct Matrix A, long long n) { // A の n 乗を返す関数
+	struct Matrix P = A, Q;
 	bool flag = false;
 	for (int i = 0; i < 60; i++) {
 		if ((n & (1LL << i)) != 0LL) {
@@ -83,10 +83,10 @@ Matrix Power(Matrix A, long long n) { // A の n 乗を返す関数
 int main() {
 	// 入力
 	long long K, N;
-	cin >> K >> N;
+	scanf("%lld%lld", &K, &N);
  
 	// 行列 A の作成
-	Matrix A; A.size_ = (1 << K);
+	struct Matrix A; A.size_ = (1 << K);
 	for (int i = 0; i < (1 << K); i++) {
 		for (int j = 0; j < (1 << K); j++) {
 			if (K == 2) A.p[i][j] = Mat2[i][j];
@@ -96,9 +96,9 @@ int main() {
 	}
  
 	// B=A^N の計算
-	Matrix B = Power(A, N);
+	struct Matrix B = Power(A, N);
  
 	// 答えの出力
-	cout << B.p[(1 << K) - 1][(1 << K) - 1] << endl;
+	printf("%lld\n", B.p[(1 << K) - 1][(1 << K) - 1]);
 	return 0;
 }
