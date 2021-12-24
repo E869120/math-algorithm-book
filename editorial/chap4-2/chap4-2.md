@@ -10,5 +10,5 @@
 
 | 問題 | C++ | Python | JAVA | C |
 |:---:|:---:|:---:|:---:|:---:|
-| 節末問題 4.2.1 | [リンク](https://github.com/E869120/math-algorithm-book/blob/main/editorial/chap4-2/prob4-2-1.cpp) | 準備中 | 準備中 | 準備中 |
-| 節末問題 4.2.2 | [リンク](https://github.com/E869120/math-algorithm-book/blob/main/editorial/chap4-2/prob4-2-2.cpp) | 準備中 | 準備中 | 準備中 |
+| 節末問題 4.2.1 | [リンク](https://github.com/E869120/math-algorithm-book/blob/main/editorial/chap4-2/prob4-2-1.cpp) | [リンク](https://github.com/E869120/math-algorithm-book/blob/main/editorial/chap4-2/prob4-2-1.py) | [リンク](https://github.com/E869120/math-algorithm-book/blob/main/editorial/chap4-2/prob4-2-1.java) | [リンク](https://github.com/E869120/math-algorithm-book/blob/main/editorial/chap4-2/prob4-2-1.c) |
+| 節末問題 4.2.2 | [リンク](https://github.com/E869120/math-algorithm-book/blob/main/editorial/chap4-2/prob4-2-2.cpp) | [リンク](https://github.com/E869120/math-algorithm-book/blob/main/editorial/chap4-2/prob4-2-2.py) | [リンク](https://github.com/E869120/math-algorithm-book/blob/main/editorial/chap4-2/prob4-2-2.java) | [リンク](https://github.com/E869120/math-algorithm-book/blob/main/editorial/chap4-2/prob4-2-1.c) |
