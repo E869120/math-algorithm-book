@@ -1,4 +1,4 @@
-## 節末問題 5.5 の解答
+## 節末問題 5.6 の解答
 
 解答 PDF：[https://github.com/E869120/math-algorithm-book/blob/main/editorial/chap5-6/chap5-6.pdf](https://github.com/E869120/math-algorithm-book/blob/main/editorial/chap5-6/chap5-6.pdf)
 
