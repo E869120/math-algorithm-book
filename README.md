@@ -23,7 +23,7 @@
 | | C++ | Python | JAVA | C |
 |:---:|:---:|:---:|:---:|:---:|
 | リンク | [Link](https://github.com/E869120/math-algorithm-book/tree/main/codes/cpp) | [Link](https://github.com/E869120/math-algorithm-book/tree/main/codes/python) | [Link](https://github.com/E869120/math-algorithm-book/tree/main/codes/java) | [Link](https://github.com/E869120/math-algorithm-book/tree/main/codes/c) |
-| 完成度 | 97% | 97% | 97% | 25% |
+| 完成度 | 97% | 97% | 97% | 50% |
 
 ### 節末問題（2 章）の解答
 | | 2.1 節 | 2.2 節 | 2.3 節 | 2.4 節 | 2.5 節 |
@@ -44,7 +44,7 @@
 | 完成度 | 100% | 100% | 100% | 100% | 80% | 100% | 100% |
 
 ### 節末問題（5 章）の解答（12/26 完成予定）
-| 5.2 節 | 5.3 節 | 5.4 節 | 5.5 節 | 5.6 節 | 5.7 節 | 5.8 節 | 5.9 節 | 5.10 節 |
+| | 5.2 節 | 5.3 節 | 5.4 節 | 5.5 節 | 5.6 節 | 5.7 節 | 5.8 節 | 5.9 節 | 5.10 節 |
 |:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|
 | リンク | [Link](https://github.com/E869120/math-algorithm-book/tree/main/editorial/chap5-2) | [Link](https://github.com/E869120/math-algorithm-book/tree/main/editorial/chap5-3) | - | - | - | - | - | - | - |
 | 完成度 | 80% | 80% | - | - | - | - | - | - | - |
