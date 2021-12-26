@@ -46,8 +46,8 @@
 ### 節末問題（5 章）の解答（12/26 完成予定）
 | | 5.2 節 | 5.3 節 | 5.4 節 | 5.5 節 | 5.6 節 | 5.7 節 | 5.8 節 | 5.9 節 | 5.10 節 |
 |:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|
-| リンク | [Link](https://github.com/E869120/math-algorithm-book/tree/main/editorial/chap5-2) | [Link](https://github.com/E869120/math-algorithm-book/tree/main/editorial/chap5-3) | [Link](https://github.com/E869120/math-algorithm-book/tree/main/editorial/chap5-4) | [Link](https://github.com/E869120/math-algorithm-book/tree/main/editorial/chap5-5) | [Link](https://github.com/E869120/math-algorithm-book/tree/main/editorial/chap5-5) | - | - | - | - |
-| 完成度 | 80% | 80% | 80% | 80% | 80% | - | - | - | - |
+| リンク | [Link](https://github.com/E869120/math-algorithm-book/tree/main/editorial/chap5-2) | [Link](https://github.com/E869120/math-algorithm-book/tree/main/editorial/chap5-3) | [Link](https://github.com/E869120/math-algorithm-book/tree/main/editorial/chap5-4) | [Link](https://github.com/E869120/math-algorithm-book/tree/main/editorial/chap5-5) | [Link](https://github.com/E869120/math-algorithm-book/tree/main/editorial/chap5-6) | [Link](https://github.com/E869120/math-algorithm-book/tree/main/editorial/chap5-7) | - | - | - |
+| 完成度 | 80% | 80% | 80% | 80% | 80% | 80% | - | - | - |
 
 ### 最終確認問題の解答（12/27 完成予定）
 | | 問題1～5 | 問題6～10 | 問題11～15 | 問題16～20 | 問題21～25 | 問題26～30 |
