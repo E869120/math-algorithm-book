@@ -8,6 +8,7 @@
 | p.177 | 二部マッチング問題 | Hopkroft-Karp | Hopcroft-Karp | - | 2 刷で対応予定 |
 | p.225 | コード 5.5.1 | <code>l++</code> が茶色で表示 | <code>l++</code> の <code>l</code> だけ黒で表示 | - | 2 刷で対応予定 |
 | p.265 | 問題 8 | 1. で求めた漸化式 | 1. で求めた数列 | - | - |
+| p.266 | 問題 11 | 白丸 | 白マル | - | - |
 | p.276 | 参考文献 | - | [35] 68-95-99.7 則（[https://artsandculture.google.com/entity/m02plm6g?hl=ja](https://artsandculture.google.com/entity/m02plm6g?hl=ja)）| 出典の入れ忘れ | 2 刷で対応予定 |
 
 <br />
