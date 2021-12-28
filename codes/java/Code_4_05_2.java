@@ -29,7 +29,7 @@ class Code_4_05_2 {
 		
 		// 深さ優先探索
 		visited = new boolean[N + 1];
-		for (int i = 1; i <= N; ++i) {
+		for (int i = 1; i <= N; i++) {
 			visited[i] = false;
 		}
 		dfs(1);
