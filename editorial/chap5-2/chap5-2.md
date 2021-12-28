@@ -10,5 +10,5 @@
 
 | 問題 | C++ | Python | JAVA | C |
 |:---:|:---:|:---:|:---:|:---:|
-| 節末問題 5.2.2 | [リンク](https://github.com/E869120/math-algorithm-book/blob/main/editorial/chap5-2/prob5-2-2.cpp) | 準備中 | 準備中 | 準備中 |
-| 節末問題 5.2.3 | [リンク](https://github.com/E869120/math-algorithm-book/blob/main/editorial/chap5-2/prob5-2-3.cpp) | 準備中 | 準備中 | 準備中 |
+| 節末問題 5.2.2 | [リンク](https://github.com/E869120/math-algorithm-book/blob/main/editorial/chap5-2/prob5-2-2.cpp) | [リンク](https://github.com/E869120/math-algorithm-book/blob/main/editorial/chap5-2/prob5-2-2.py) | [リンク](https://github.com/E869120/math-algorithm-book/blob/main/editorial/chap5-2/prob5-2-2.java) | [リンク](https://github.com/E869120/math-algorithm-book/blob/main/editorial/chap5-2/prob5-2-2.c) |
+| 節末問題 5.2.3 | [リンク](https://github.com/E869120/math-algorithm-book/blob/main/editorial/chap5-2/prob5-2-3.cpp) | [リンク](https://github.com/E869120/math-algorithm-book/blob/main/editorial/chap5-2/prob5-2-3.py) | [リンク](https://github.com/E869120/math-algorithm-book/blob/main/editorial/chap5-2/prob5-2-3.java) | [リンク](https://github.com/E869120/math-algorithm-book/blob/main/editorial/chap5-2/prob5-2-3.c) |
