@@ -7,10 +7,8 @@ class Main {
 		int N = sc.nextInt();
 		int[] A = new int[N + 1];
 		int[] B = new int[N + 1];
-		for (int i = 1; i <= N; i++) {
-			A[i] = sc.nextInt();
-			B[i] = sc.nextInt();
-		}
+		for (int i = 1; i <= N; i++) A[i] = sc.nextInt();
+		for (int i = 1; i <= N; i++) B[i] = sc.nextInt();
 		
 		// 答えの計算・出力
 		double Answer = 0.0;

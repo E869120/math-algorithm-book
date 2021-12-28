@@ -8,7 +8,8 @@ double Answer = 0.0;
 int main() {
 	// 入力
 	cin >> N;
-	for (int i = 1; i <= N; i++) cin >> A[i] >> B[i];
+	for (int i = 1; i <= N; i++) cin >> A[i];
+	for (int i = 1; i <= N; i++) cin >> B[i];
 	
 	// 期待値を求める
 	for (int i = 1; i <= N; i++) {

@@ -1,9 +1,7 @@
 # 入力
 N = int(input())
-A = [0 for i in range(N)]
-B = [0 for i in range(N)]
-for i in range(N):
-	A[i],B[i] = map(int, input().split())
+A = list(map(int, input().split()))
+B = list(map(int, input().split()))
 
 # 答えを求める
 Answer = 0.0
