@@ -49,7 +49,7 @@
 | リンク | [Link](https://github.com/E869120/math-algorithm-book/tree/main/editorial/chap5-2) | [Link](https://github.com/E869120/math-algorithm-book/tree/main/editorial/chap5-3) | [Link](https://github.com/E869120/math-algorithm-book/tree/main/editorial/chap5-4) | [Link](https://github.com/E869120/math-algorithm-book/tree/main/editorial/chap5-5) | [Link](https://github.com/E869120/math-algorithm-book/tree/main/editorial/chap5-6) | [Link](https://github.com/E869120/math-algorithm-book/tree/main/editorial/chap5-7) | [Link](https://github.com/E869120/math-algorithm-book/tree/main/editorial/chap5-8) | [Link](https://github.com/E869120/math-algorithm-book/tree/main/editorial/chap5-9) | [Link](https://github.com/E869120/math-algorithm-book/tree/main/editorial/chap5-10) |
 | 完成度 | 100% | 100% | 100% | 100% | 100% | 100% | 85% | 100% | 100% |
 
-### 最終確認問題の解答（12/29 完成予定）
+### 最終確認問題の解答
 | | 問題1～5 | 問題6～10 | 問題11～15 | 問題16～20 | 問題21～25 | 問題26～30 |
 |:---:|:---:|:---:|:---:|:---:|:---:|:---:|
 | リンク | [Link](https://github.com/E869120/math-algorithm-book/tree/main/editorial/chap6-01_05) | [Link](https://github.com/E869120/math-algorithm-book/tree/main/editorial/chap6-06_10) | [Link](https://github.com/E869120/math-algorithm-book/tree/main/editorial/chap6-11_15) | [Link](https://github.com/E869120/math-algorithm-book/tree/main/editorial/chap6-16_20) | [Link](https://github.com/E869120/math-algorithm-book/tree/main/editorial/chap6-21_25) | [Link](https://github.com/E869120/math-algorithm-book/tree/main/editorial/chap6-26_30) |
