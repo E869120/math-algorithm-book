@@ -23,7 +23,7 @@
 | | C++ | Python | JAVA | C |
 |:---:|:---:|:---:|:---:|:---:|
 | リンク | [Link](https://github.com/E869120/math-algorithm-book/tree/main/codes/cpp) | [Link](https://github.com/E869120/math-algorithm-book/tree/main/codes/python) | [Link](https://github.com/E869120/math-algorithm-book/tree/main/codes/java) | [Link](https://github.com/E869120/math-algorithm-book/tree/main/codes/c) |
-| 完成度 | 97% | 97% | 97% | 97% |
+| 完成度 | 100% | 100% | 100% | 100% |
 
 ### 節末問題（2 章）の解答
 | | 2.1 節 | 2.2 節 | 2.3 節 | 2.4 節 | 2.5 節 |
