@@ -53,7 +53,7 @@
 | | 問題1～5 | 問題6～10 | 問題11～15 | 問題16～20 | 問題21～25 | 問題26～30 |
 |:---:|:---:|:---:|:---:|:---:|:---:|:---:|
 | リンク | [Link](https://github.com/E869120/math-algorithm-book/tree/main/editorial/chap6-01_05) | [Link](https://github.com/E869120/math-algorithm-book/tree/main/editorial/chap6-06_10) | [Link](https://github.com/E869120/math-algorithm-book/tree/main/editorial/chap6-11_15) | [Link](https://github.com/E869120/math-algorithm-book/tree/main/editorial/chap6-16_20) | [Link](https://github.com/E869120/math-algorithm-book/tree/main/editorial/chap6-21_25) | [Link](https://github.com/E869120/math-algorithm-book/tree/main/editorial/chap6-26_30) |
-| 完成度 | 100% | 100% | 100% | 100% | 100% | 85% |
+| 完成度 | 100% | 100% | 100% | 100% | 100% | 100% |
 
 <br />
 
