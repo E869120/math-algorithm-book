@@ -1,60 +1,57 @@
 #include <iostream>
-#include <vector>
-#include <string>
-#include <algorithm>
+#include <set>
 using namespace std;
  
 // f(m) としてあり得る候補
-vector<long long> fm_cand;
+// set 型についてはインターネットで調べてみてください！
+set<long long> fm_cand;
  
-// m の総積を返す関数
+// m の各桁の積を返す関数
 long long product(long long m) {
-	string str = to_string(m); // 整数 m を文字列に変換
-	long long ans = 1;
-	for (int i = 0; i < str.size(); i++) {
-		ans *= (long long)(str[i] - '0');
+	if (m == 0) {
+		return 0;
 	}
-	return ans;
+	else {
+		long long ans = 1;
+		while (m >= 1) {
+			ans *= (m % 10);
+			m /= 10;
+		}
+		return ans;
+	}
 }
- 
-void func(int digit, string cur) {
+
+void func(int digit, long long m) {
 	// m の桁数は 11 桁以下
-	long long m = stoll(cur);
-	fm_cand.push_back(product(m));
-	if (digit == 11) return;
- 
+	// 注：余った桁を 1 で埋めれば、全部 11 桁と仮定しても良い
+	if (digit == 11) {
+		fm_cand.insert(product(m));
+		return;
+	}
+	
 	// 次の桁を探索
 	// min_value は cur の最後の桁（単調増加にするためには次の桁がそれ以上でなければならない）
-	int min_value = (cur[cur.size() - 1] - '0');
+	int min_value = (m % 10);
 	for (int i = min_value; i <= 9; i++) {
-		string cur_next = cur;
-		cur_next += ('0' + i);
-		func(digit + 1, cur_next);
+		// 10 * m + i は m の後ろに数字 i を付けたもの
+		func(digit + 1, 10 * m + i);
 	}
 }
  
 int main() {
 	// f(m) の候補を列挙
-	for (int i = 0; i <= 9; i++) {
-		string cur = ""; cur += ('0' + i);
-		func(1, cur);
-	}
- 
-	// fm_cand の重複要素を取り除く操作
-	// erase とか unique とか難しいので、ここはそういうものだと思っておけば良い
-	sort(fm_cand.begin(), fm_cand.end());
-	fm_cand.erase(unique(fm_cand.begin(), fm_cand.end()), fm_cand.end());
+	func(0, 0);
  
 	// 入力
 	long long N, B;
 	cin >> N >> B;
  
-	// m の総積が f(m) になるかどうかチェック
+	// m - f(m) == B になるかどうかチェック
 	long long Answer = 0;
-	for (int i = 0; i < fm_cand.size(); i++) {
-		long long m = fm_cand[i] + B;
+	for (long long fm : fm_cand) {
+		long long m = fm + B;
 		long long prod_m = product(m);
-		if (prod_m == fm_cand[i] && m <= N) {
+		if (m - prod_m == B && m <= N) {
 			Answer += 1;
 		}
 	}
