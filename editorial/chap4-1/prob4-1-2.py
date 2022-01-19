@@ -9,7 +9,7 @@ for i in range(N):
 Answer = 1000000000.0
 for i in range(N):
 	for j in range(i+1,N):
-		dist = (((x[i] - y[i]) ** 2 + (x[j] - y[j]) ** 2) ** 0.5)
+		dist = (((x[i] - x[j]) ** 2 + (y[i] - y[j]) ** 2) ** 0.5)
 		Answer = min(Answer, dist)
 
 # 答えの出力
