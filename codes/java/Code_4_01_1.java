@@ -32,7 +32,7 @@ class Code_4_01_1 {
 			answer = Math.sqrt(CAx * CAx + CAy * CAy);
 		}
 		if (pattern == 2) {
-			double S = Math.abs(BAx * CAy - BAy * CAx);
+			double S = Math.abs(BAx * BCy - BAy * BCx);
 			double BCLength = Math.sqrt(BCx * BCx + BCy * BCy);
 			answer = S / BCLength;
 		}
