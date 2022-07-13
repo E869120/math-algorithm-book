@@ -24,7 +24,7 @@ if pattern == 1:
 if pattern == 3:
 	answer = math.sqrt(CAx ** 2 + CAy ** 2)
 if pattern == 2:
-	S = abs(BAx * CAy - BAy * CAx)
+	S = abs(BAx * BCy - BAy * BCx)
 	BCLength = math.sqrt(BCx ** 2 + BCy ** 2)
 	answer = S / BCLength
 
