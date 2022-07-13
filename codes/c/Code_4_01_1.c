@@ -23,7 +23,7 @@ int main() {
 	if (pattern == 1) answer = sqrt(BAx * BAx + BAy * BAy);
 	if (pattern == 3) answer = sqrt(CAx * CAx + CAy * CAy);
 	if (pattern == 2) {
-		double S = llabs(BAx * CAy - BAy * CAx);
+		double S = llabs(BAx * BCy - BAy * BCx);
 		double BCLength = sqrt(BCx * BCx + BCy * BCy);
 		answer = S / BCLength;
 	}
