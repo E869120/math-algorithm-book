@@ -25,7 +25,7 @@
 本レポジトリの目次は次の通りです。
 
 ### 正誤表
-* [正誤表（最終更新日：2022/7/13）](https://github.com/E869120/math-algorithm-book/blob/main/errata.md)
+* [正誤表（最終更新日：2022/7/28）](https://github.com/E869120/math-algorithm-book/blob/main/errata.md)
 
 ### ソースコード
 | | C++ | Python | JAVA | C |
