@@ -7,9 +7,10 @@
 - 節末問題・最終確認問題の解答
 - 正誤表
 
----
+<br>
+<br>
 
-<div align = 'center'>
+<div align = center>
 
 なお、本のリンクは以下の通りです。ぜひご[購入]いただけると幸いです。
 
@@ -19,7 +20,8 @@
 
 </div>
 
----
+<br>
+<br>
 
 # 注意（2022/1/29 追記）
 本レポジトリに掲載されている Python のソースコードについて、いくつか注意点を記します。
@@ -27,7 +29,8 @@
 * AtCoder に対応している[演習問題集]では、`Python 3.8.2` で提出した場合に間に合う保証はありません。この場合は `PyPy3 7.3.0` で提出してください。
 * プログラミング言語によって使える機能が異なるため、プログラムの書き方が C++ と Python で異なる点がいくつかあります。
 
----
+<br>
+<br>
 
 # 目次
 
@@ -85,9 +88,6 @@
 | 完成度 |      100% |       100% |        100% |        100% |        100% |        100% |
 
 <br>
-
----
-
 <br>
 
 # 〈参考〉本の内容について
@@ -97,21 +97,20 @@
 
 その他にも、フルカラーで分かりやすいこと、200 問の演習問題が提供されていることなどがあります。興味を持たれた方は、ぜひ本書を手に取っていただければと思います。
 
-<div align = 'center'>
+<div align = center>
 
 ![Preview 2]
 
 </div>
 
 <br>
-
----
-
 <br>
 
 # 謝辞
 
 本に対する指摘・AtCoder ジャッジの準備・Python・JAVA・C のソースコードを準備などに協力してくださった、catupper 氏、kaage 氏、kaede2020 氏、kirimin 氏、kotamanegi 氏、PCTProbability 氏、physics0523 氏、sak 氏、sheyasutaka 氏、square1001 氏、tsukammo 氏、ygussany 氏（アルファベット順）に感謝します。
+
+<br>
 
 
 <!----------------------------------------------------------------------------->
@@ -119,24 +118,20 @@
 [Preview 1]: fig/toppage-001.png
 [Preview 2]: fig/toppage-003.png
 
-[購入]: https://gihyo.jp/book/2022/978-4-297-12521-9
 [演習問題集]: https://atcoder.jp/contests/math-and-algorithm
-
 [正誤表]: https://github.com/E869120/math-algorithm-book/blob/main/errata.md
+[購入]: https://gihyo.jp/book/2022/978-4-297-12521-9
 
-
-[C++]: https://github.com/E869120/math-algorithm-book/tree/main/codes/cpp
 [Python]: https://github.com/E869120/math-algorithm-book/tree/main/codes/python
 [Java]: https://github.com/E869120/math-algorithm-book/tree/main/codes/java
+[C++]: https://github.com/E869120/math-algorithm-book/tree/main/codes/cpp
 [C]: https://github.com/E869120/math-algorithm-book/tree/main/codes/c
-
 
 [2.1 節]: https://github.com/E869120/math-algorithm-book/tree/main/editorial/chap2-1
 [2.2 節]: https://github.com/E869120/math-algorithm-book/tree/main/editorial/chap2-2
 [2.3 節]: https://github.com/E869120/math-algorithm-book/tree/main/editorial/chap2-3
 [2.4 節]: https://github.com/E869120/math-algorithm-book/tree/main/editorial/chap2-4
 [2.5 節]: https://github.com/E869120/math-algorithm-book/tree/main/editorial/chap2-5
-
 
 [3.1 節]: https://github.com/E869120/math-algorithm-book/tree/main/editorial/chap3-1
 [3.2 節]: https://github.com/E869120/math-algorithm-book/tree/main/editorial/chap3-2
@@ -146,7 +141,6 @@
 [3.6 節]: https://github.com/E869120/math-algorithm-book/tree/main/editorial/chap3-6
 [3.7 節]: https://github.com/E869120/math-algorithm-book/tree/main/editorial/chap3-7
 
-
 [4.1 節]: https://github.com/E869120/math-algorithm-book/tree/main/editorial/chap4-1
 [4.2 節]: https://github.com/E869120/math-algorithm-book/tree/main/editorial/chap4-2
 [4.3 節]: https://github.com/E869120/math-algorithm-book/tree/main/editorial/chap4-3
@@ -154,7 +148,6 @@
 [4.5 節]: https://github.com/E869120/math-algorithm-book/tree/main/editorial/chap4-5
 [4.6 節]: https://github.com/E869120/math-algorithm-book/tree/main/editorial/chap4-6
 [4.7 節]: https://github.com/E869120/math-algorithm-book/tree/main/editorial/chap4-7
-
 
 [5.1 節]:  https://github.com/E869120/math-algorithm-book/tree/main/editorial/chap5-1
 [5.2 節]:  https://github.com/E869120/math-algorithm-book/tree/main/editorial/chap5-2
@@ -166,7 +159,6 @@
 [5.8 節]:  https://github.com/E869120/math-algorithm-book/tree/main/editorial/chap5-8
 [5.9 節]:  https://github.com/E869120/math-algorithm-book/tree/main/editorial/chap5-9
 [5.10 節]: https://github.com/E869120/math-algorithm-book/tree/main/editorial/chap5-10
-
 
 [問題1～5]:   https://github.com/E869120/math-algorithm-book/tree/main/editorial/chap6-01_05
 [問題6～10]:  https://github.com/E869120/math-algorithm-book/tree/main/editorial/chap6-06_10
